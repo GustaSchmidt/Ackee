@@ -7,8 +7,6 @@ on:
     paths:
       - "./src/*"
   push:
-    paths:
-      - "./src/*"
     paths-ignore:
       - '**.md'
 
@@ -25,7 +23,6 @@ jobs:
           access_token: ${{ github.token }}
 
   build:
-
     name: 'Build and test'
     runs-on: ${{ matrix.os }}
     timeout-minutes: 10
