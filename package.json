@@ -33,7 +33,7 @@
     "lint": "eslint \"{functions,src,test}/**/*.js\""
   },
   "dependencies": {
-    "@graphql-tools/merge": "^8.3.14",
+    "@graphql-tools/merge": "^8.4.2",
     "ackee-tracker": "^5.1.0",
     "apollo-server-core": "^3.11.1",
     "apollo-server-lambda": "^3.11.1",
