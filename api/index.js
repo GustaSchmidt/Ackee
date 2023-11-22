@@ -33,6 +33,5 @@ const convertMultiValueHeaders = (response) => {
 			console.warn(`multiValueHeaders is currently unsupported on Vercel. Header ${ key } will be ignored.`)
 		}
 	}
-
 	return response
 }
