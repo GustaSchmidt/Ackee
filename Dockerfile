@@ -2,7 +2,7 @@
 
 FROM node:14-alpine AS build
 
-# Add and set non-root user. Disable the password and do not create a home folder.
+# Add and set non-root user. Disable the password and do not create a home folder. 
 
 RUN adduser -D ackee ackee
 USER ackee
