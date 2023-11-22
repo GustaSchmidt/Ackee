@@ -7,7 +7,7 @@ Here are a few resources to help you get started with GraphQL:
 - https://graphql.org/learn/
 - https://www.howtographql.com
 
-## Playground
+## Playground 
 
 GraphQL Playground is a graphical, interactive, in-browser GraphQL IDE. It allows you to play and experiment with the API of Ackee.
 
